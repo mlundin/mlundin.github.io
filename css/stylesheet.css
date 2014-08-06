@@ -1,30 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:b|Lato|Inconsolata);
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html,
-body {
+html,body {
   margin: 0;
   padding: 0;
 }
 html {
-  line-height: 1.3;
+  font-size: 16px;
+  line-height: 1.2;
 }
-@media (min-width: 38rem) {
+@media (min-width: 40rem) {
   html {
     font-size: 20px;
   }
 }
 body {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+#preamble, #content, #postamble {
   max-width: 40rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 #preamble {
     margin-top: 80px;
@@ -176,8 +173,8 @@ h4 {font-size: 14pt;
 .underline { text-decoration: underline; }
 p.verse { margin-left: 3%; }
 pre {
-    position: relative;
     line-height: 1;
+    position: relative;
     padding: 8pt;
     font-family: "Inconsolata", monospace;
     overflow: auto;
