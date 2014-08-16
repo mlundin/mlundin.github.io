@@ -1,8 +1,9 @@
 
 This is a test.
 
-* STARTED Logging						       :NEXT:
-  :LOGBOOK:
-  CLOCK: [2014-08-16 Sat 10:14]--[2014-08-16 Sat 10:15] =>  0:01
-  :END:
-  [2014-08-16 Sat 10:14]
+* Urgent
+** STARTED Logging						       :NEXT:
+   :LOGBOOK:
+   CLOCK: [2014-08-16 Sat 10:14]--[2014-08-16 Sat 10:15] =>  0:01
+   :END:
+   [2014-08-16 Sat 10:14]
